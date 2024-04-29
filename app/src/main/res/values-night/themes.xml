@@ -1,0 +1,11 @@
+<resources>
+    <style name="Abdalla_Roselyne_s2110906" >
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#0288D1</item>
+        <item name="colorPrimaryVariant">#01579B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:colorBackground">#121212</item> <!-- Dark background -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B3FFFFFF</item>
+    </style>
+</resources>

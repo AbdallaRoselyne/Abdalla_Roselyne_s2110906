@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Abdalla_Roselyne_s2110906">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#03A9F4</item> <!-- Light blue color -->
+        <item name="colorPrimaryVariant">#0288D1</item> <!-- Darker shade of light blue -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White text on light blue -->
+        <item name="android:colorBackground">#FFFFFF</item> <!-- White background -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Black text -->
+        <item name="android:textColorSecondary">#757575</item> <!-- Dark grey secondary text -->
+
+    </style>
+
+<!--    <style name="Theme.Abdalla_Roselyne_s2110906" parent="Base.Theme.Abdalla_Roselyne_s2110906" />-->
+</resources>
