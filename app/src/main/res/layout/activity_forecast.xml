@@ -20,7 +20,6 @@ Programme of Study   Computing
         android:layout_marginTop="24dp"
         android:text="@string/WeatherForecast"
         android:textSize="24sp"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +41,6 @@ Programme of Study   Computing
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Location"
-        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +59,6 @@ Programme of Study   Computing
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locationDisplay"
         app:cardBackgroundColor="#FFC0CB">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

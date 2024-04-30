@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.TooltipCompat;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -61,6 +62,9 @@ public class WeatherDetailActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Set a tooltip for the settings icon
+        TooltipCompat.setTooltipText(settingsIcon, "Settings");
 
         locationNamesList = new ArrayList<>(WeatherService.locationNames.values());
 

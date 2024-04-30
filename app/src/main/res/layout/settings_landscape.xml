@@ -23,7 +23,6 @@ Programme of Study   Computing
             android:text="Settings"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
             android:layout_marginBottom="16dp"/>
 
         <TextView
@@ -31,8 +30,6 @@ Programme of Study   Computing
             android:layout_height="wrap_content"
             android:text="Account information"
             android:textSize="16sp"
-            android:textColor="@color/black"
-
             android:layout_marginBottom="16dp"/>
 
         <androidx.cardview.widget.CardView
@@ -54,20 +51,47 @@ Programme of Study   Computing
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:layout_marginBottom="16dp"
                     android:gravity="center_vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
                         android:text="Dark Mode"
-                        android:textSize="15sp"
                         android:textColor="@color/black"
-                        android:layout_marginRight="10dp"/>
+                        android:textSize="15sp" />
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/darkModeSwitch"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <!-- TimePicker for setting update time -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical">
+
+                    <TimePicker
+                        android:id="@+id/timePicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/setUpdateTimeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Set Update Time"
+                        android:background="@color/Pink"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center" />
 
                 </LinearLayout>
 
@@ -80,7 +104,6 @@ Programme of Study   Computing
                     android:background="@color/Pink"
                     android:layout_marginTop="16dp"
                     android:gravity="center" />
-
 
             </LinearLayout>
 

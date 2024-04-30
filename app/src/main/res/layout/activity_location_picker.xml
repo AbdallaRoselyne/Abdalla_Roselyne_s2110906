@@ -14,7 +14,6 @@ Programme of Study   Computing
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pick Location"
-        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
@@ -36,7 +35,6 @@ Programme of Study   Computing
         android:layout_height="wrap_content"
         android:text="Pick a location or city that you want to know the detailed weather information at the moment."
         android:textSize="16sp"
-        android:textColor="@color/black"
         android:gravity="center"
         android:layout_below="@id/title"
         android:layout_marginTop="16dp"/>
@@ -46,7 +44,6 @@ Programme of Study   Computing
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Search"
-        android:textColor="@color/black"
         android:inputType="text"
         android:drawableLeft="@android:drawable/ic_menu_search"
         android:layout_below="@id/instructions"

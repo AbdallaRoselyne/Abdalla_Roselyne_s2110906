@@ -42,4 +42,5 @@ dependencies {
     implementation("androidx.annotation:annotation:1.7.1")
     implementation("com.squareup.okhttp3:okhttp:4.9.0")
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation ("androidx.appcompat:appcompat:1.6.1")
 }

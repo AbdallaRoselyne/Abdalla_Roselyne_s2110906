@@ -19,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.TooltipCompat;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -68,6 +69,9 @@ public class LocationPickerActivity extends AppCompatActivity implements OnMapRe
                 startActivity(intent);
             }
         });
+
+        // Set a tooltip for the settings icon
+        TooltipCompat.setTooltipText(settingsIcon, "Settings");
         // Initialize the location map
         locationMap = new HashMap<>();
         locationMap.put("Glasgow", 2648579);

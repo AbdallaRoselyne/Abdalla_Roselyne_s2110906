@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.TooltipCompat;
 
 import java.io.InputStream;
 import java.util.List;
@@ -58,6 +59,9 @@ public class ForecastActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Set a tooltip for the settings icon
+        TooltipCompat.setTooltipText(settingsIcon, "Settings");
 
 
         String locationName = getIntent().getStringExtra("locationName");

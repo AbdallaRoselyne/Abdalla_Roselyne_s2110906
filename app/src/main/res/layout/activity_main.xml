@@ -6,7 +6,8 @@ Programme of Study   Computing
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp">
 
     <!-- Cloud Icon -->
     <ImageView
@@ -23,7 +24,6 @@ Programme of Study   Computing
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to Meteo App"
-        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_below="@id/cloudIcon"
